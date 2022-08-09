@@ -1,0 +1,51 @@
+.adFour{
+    display: flex;
+    flex-direction: column;
+    /* max-height: 400px; */
+    min-width: 200px;
+    margin: 1rem 2rem;
+    background: #fff;
+    z-index: 1;
+    padding: 15px;
+    flex: 1;
+}
+.adFour-header > h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.adFour-header > h2{
+    margin-top: 0;
+}
+.adFour-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.adFour-body-object{
+    margin-bottom: 2rem;
+}
+.adFour-image{
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+    margin: 0;
+}
+.adFour-image-label{
+    margin: 0;
+    font-size: 1.5rem;
+    align-self: baseline;
+}
+.adFour-footer{
+    text-decoration: none;
+    margin: 1rem 0;
+}
+.adFour-footer > a{
+    color: #2D8A9B;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
