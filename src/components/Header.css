@@ -1,0 +1,92 @@
+/* Header section-- Navbar */
+.header{
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+.header-logo{
+    margin: 2rem 1rem;
+    width:10rem;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+.header-locator{
+    display: flex;
+    align-items: center;
+    margin-right:2.5rem;
+    margin-left: 1rem;
+}
+.header-locationIcon{
+    color: #fff;
+    height: 16px !important;
+    width: 18px !important;
+    margin-left: 0;
+}
+.header-location{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+.header-select{
+    border-radius: 3px 0 0 3px;
+    height: 30px;
+    margin: 0;
+    border: 1px solid rgb(180, 175, 175);
+}
+.header-search{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.header-input{
+    padding: 10px;
+    /* width: 568px;     */
+    width: 80%;
+    height: 30px;
+    border: none;
+}
+.header-searchIcon{
+    padding: 3px;
+    background-color: #d6a666;
+    height: 30px !important ;
+    width: 32px !important;
+    border-radius: 0 3px 3px 0;
+}
+
+.header-options{
+    margin: 1rem 2rem;
+    margin-left: 0;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;    
+}
+.header-option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.header-option-lineOne{
+    font-size: 1rem;
+}
+.header-option-lineTwo{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.header-optionBasket{
+    display: flex;
+    align-items: center;
+    color: white; 
+}
+.header-basketIcon{
+    height: 22px !important;
+    width: 22px !important;
+    
+}
+.cart-count{
+    font-size: 1.5rem;
+    color: #cd9042;
+}
