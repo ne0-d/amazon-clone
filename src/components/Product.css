@@ -1,0 +1,70 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 16px;
+    width: 300px;
+    background: #fff;
+    padding: 0.7rem;
+    margin: 1rem 2rem;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+.product-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0.3rem;
+}
+.product-image{
+    width: 200px;
+    align-self: center;
+    /* margin */
+}
+.product-rating{
+    margin-bottom: 0.4rem;
+}
+.product-price-section{
+    margin: 0;
+}
+.product-discount-price{
+   font-size: 2.2rem;
+   font-weight: 600;
+   color: rgb(192, 67, 10);
+   margin-right: 2px; 
+}
+.product-discount-price > sup{
+    font-size: 1.4rem;
+}
+.product-actual-price{
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    color: rgb(56, 52, 52);
+    margin: 0 0.3rem;
+    margin-right: 1rem;
+}
+.product-discount{
+    font-weight: 600;
+}
+
+.product-cardOffers >p{
+    margin: 0.2rem 0 1rem 0;
+    color: rgb(56, 52, 52);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.product-dilevery-time{
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.product-dilevery-time >p{
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: 600;
+}
+.prime-logo{
+    display: inline;
+    width: 50px; 
+    margin-right:4px; 
+    position: relative; 
+    top: 2px;
+}
