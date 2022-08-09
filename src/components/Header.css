@@ -90,3 +90,24 @@
     font-size: 1.5rem;
     color: #cd9042;
 }
+
+.header-footer{
+    background-color: #222E3E;
+    display: flex;
+    color: white;
+    font-size: 1.3rem;
+    align-items: center;
+    font-weight: 500;
+    padding: 0.3rem 1rem;
+}
+.header-footer-content{
+    margin: 0.8rem;   
+}
+.header-footer-content.all{
+    margin-left: 0;
+}
+.header-footer-menuIcon{
+    width: 2rem !important;
+    height: 2.5rem !important;
+    margin: 0;
+}

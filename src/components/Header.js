@@ -2,6 +2,7 @@ import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PlaceIcon from "@mui/icons-material/Place";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
   return (
@@ -44,6 +45,15 @@ export default function Navbar() {
             <span className="header-option-lineTwo cart-count">0</span>
           </div>
         </div>
+      </div>
+      <div className="header-footer">
+        <MenuIcon className="header-footer-menuIcon" />
+        <span className="header-footer-content all">All</span>
+        <span className="header-footer-content">Best Sellers</span>
+        <span className="header-footer-content">Today's Deal</span>
+        <span className="header-footer-content">Mobiles</span>
+        <span className="header-footer-content">Books</span>
+        <span className="header-footer-content">Electronics</span>
       </div>
     </nav>
   );
