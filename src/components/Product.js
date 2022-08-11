@@ -1,23 +1,22 @@
 import "./Product.css";
 
-export default function Product() {
+export default function Product(props) {
   return (
     <div className="product">
-      <img
-        className="product-image"
-        src="https://m.media-amazon.com/images/I/61i8Vjb17SL._AC_UY218_.jpg"
-      />
-      <div className="product-title">
-        Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core
-        Helio G25 Processor | 5000 mAh Battery
-      </div>
-      <div className="product-rating">⭐⭐⭐⭐181,221</div>
+      <img className="product-image" src={props.definition.image} />
+      <div className="product-title">{props.definition.name}</div>
+      <div className="product-rating">⭐⭐⭐⭐{props.definition.rating}</div>
       <div className="product-price-section">
         <span className="product-discount-price">
-          <sup>$</sup>6,999
+          <sup>₹</sup>
+          {props.definition.disPrice}
         </span>
-        <span className="product-actual-price">$8,499</span>
-        <span className="product-discount">(18% off)</span>
+        <span className="product-actual-price">
+          {props.definition.actualPrice}
+        </span>
+        <span className="product-discount">
+          ({props.definition.discount}% off)
+        </span>
       </div>
       <div className="product-cardOffers">
         <p>10% Off on SBI Credit Cards</p>

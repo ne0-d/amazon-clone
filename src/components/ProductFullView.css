@@ -1,0 +1,61 @@
+.productFull-description{
+    margin-top: 4rem;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+hr{
+    margin: 0;
+}
+.rating-count{
+    font-size: 15px;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+}
+.price-section{
+    margin-top: 1rem;
+}
+.product-discount{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(192, 67, 10);
+    margin-right: 2px; 
+}
+.product-discount-price{
+    color: black;
+    font-weight: 500;
+    font-size: 2.5rem;
+
+}
+.product-tax{
+    margin: 0;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    
+}
+.productFull-order{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    
+}
+.productFull-addToCart, .productFull-buyNow{
+    width: 180px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 5px; 
+    border: 8px;
+    color: #000;
+    background-color: #ffa418;
+    
+
+}
+.productFull-buyNow{
+    background-color: #ffd712;
+}
